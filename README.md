@@ -26,7 +26,7 @@ The Node.js application in this repository is a basic web server that serves a s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Abhin-Anilkumar/Nodejs-Application-and-its-helm-Chart.git
+   git clone https://github.com/Arunkumar2255/WEBAPP.git
    cd Nodejs-Application-and-its-helm-Chart
 
 2. Install dependencies:
