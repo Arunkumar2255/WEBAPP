@@ -10,6 +10,6 @@ spec:
     - port: {{ .Values.service.port }}
       targetPort: http
       protocol: TCP
-      name: http
+      name: {{ printf "http-%d" .Values.service.port }}
   selector:
     {{- include "nodejs-application.selectorLabels" . | nindent 4 }}
