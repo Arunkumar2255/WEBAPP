@@ -1,7 +1,7 @@
 
 # Node.js Application and Its Helm Chart
 
-This repository contains a Node.js application along with its Helm chart for easy deployment on Kubernetes clusters. #test
+This repository contains a Node.js application along with its Helm chart for easy deployment on Kubernetes clusters. 
 
 ## Application Overview
 
