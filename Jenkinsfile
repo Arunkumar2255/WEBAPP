@@ -30,7 +30,7 @@ pipeline {
         stage('Sonarqube Analysis') {
             steps {
                 sh '''
-                $SCANNER_HOME/bin/sonar-scanner -Dsonar.host.url=http://43.204.140.147:9000/ -Dsonar.login=squ_385a453cdf3c2d510c66a2093be3be53e23ecf93 -Dsonar.projectName=nodejs-app \
+                $SCANNER_HOME/bin/sonar-scanner -Dsonar.host.url=http://3.111.47.109:9000/ -Dsonar.login=squ_385a453cdf3c2d510c66a2093be3be53e23ecf93 -Dsonar.projectName=nodejs-app \
                 -Dsonar.sources=. \
                 -Dsonar.projectKey=nodejs-app
                 '''
